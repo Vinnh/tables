@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <section class="tab">
+
+        <h1>Boletim Escolar</h1>
+
+        <div class="tabela">
+            <table>
+                <thead>
+                <tr>
+                    <th colspan="2">Disciplinas</th>
+                    <th colspan="4">Bimestres</th>
+                    <th colspan="2">Status</th>
+                </tr>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Nome</th>
+                    <th>B1</th>
+                    <th>B2</th>
+                    <th>B3</th>
+                    <th>B4</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>                    
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Técnica</td>
+                    <td>Autoria Web</td>
+                    <td>80</td>
+                    <td>98</td>
+                    <td>100</td>
+                    <td>75</td>
+                    <td>89</td>
+                    <td class="hap">
+                        <ion-icon name="happy"></ion-icon> aprovado
+                    </td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3">Geral</td>
+                    <td>Matematica</td>
+                    <td>50</td>
+                    <td>68</td>
+                    <td>100</td>
+                    <td>75</td>
+                    <td>74</td>
+                    <td class="hap">
+                        <ion-icon name="happy"></ion-icon> aprovado
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>Biologia</td>
+                    <td>50</td>
+                    <td>68</td>
+                    <td>50</td>
+                    <td>70</td>
+                    <td>59</td>
+                    <td class="sad">
+                        <ion-icon name="sad"></ion-icon> reprovado
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>Química</td>
+                    <td>90</td>
+                    <td>90</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>95</td>
+                    <td class="hap">
+                        <ion-icon name="happy"></ion-icon> aprovado
+                    </td>
+                </tr>                    
+                </tbody>
+
+            </table>
+        </div>
+    </section>
+
+</body>
+
+</html>
